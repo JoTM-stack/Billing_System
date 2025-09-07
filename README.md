@@ -1,21 +1,6 @@
 # Billing_System
 A console-based billing management system in Python that allows users to manage accounts, perform transactions, and maintain persistent account data using file storage. Designed for learning purposes and small-scale simulations of banking or utility systems.
 
-Ah! You want a **single editable document content that you can just copy and paste** into Word, Google Docs, or any editor—no scripts or downloads. I can do that. Here’s a fully formatted version of your billing system documentation in one block:
-
-![Alt text](Menu.png)
-
-![Alt text](CreateAccount.png)
-
-![Alt text](LoginAccount.png)
-
-![Alt text](ReisteredAcc.png)
-
-![Alt text](ExitSystem.png)
-
-
-
-
 ## Features
 
 * **Account Management:** Create, view, and select user accounts.
@@ -47,12 +32,20 @@ from Biller import BillingSystem
 system = BillingSystem()
 system.start()
 ```
+![Alt text](Menu.png)
 
 * Create or select an account.
-* Deposit, withdraw, or purchase services.
-* Transaction history is logged for auditing.
-* Balances are saved automatically after every transaction.
+![Alt text](CreateAccount.png)
 
+* Deposit, withdraw, or purchase services.
+![Alt text](LoginAccount.png)
+
+* Transaction history is logged for auditing.
+
+* Balances are saved automatically after every transaction.
+![Alt text](ReisteredAcc.png)
+
+![Alt text](ExitSystem.png)
 ## Key Classes
 
 * **BillingSystem:** Main system logic, menus, and user interactions.
