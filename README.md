@@ -16,8 +16,8 @@ Ah! You want a **single editable document content that you can just copy and pas
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/jm-tsie-billing-system.git
-   cd jm-tsie-billing-system
+   git clone https://github.com/jotm-stack/billing-system.git
+   cd billing-system
    ```
 2. Ensure Python 3.7+ is installed.
 3. Run the program:
