@@ -32,20 +32,25 @@ from Biller import BillingSystem
 system = BillingSystem()
 system.start()
 ```
+
 ![Alt text](Menu.png)
 
 * Create or select an account.
+
 ![Alt text](CreateAccount.png)
 
 * Deposit, withdraw, or purchase services.
+
 ![Alt text](LoginAccount.png)
 
 * Transaction history is logged for auditing.
 
 * Balances are saved automatically after every transaction.
+
 ![Alt text](ReisteredAcc.png)
 
 ![Alt text](ExitSystem.png)
+
 ## Key Classes
 
 * **BillingSystem:** Main system logic, menus, and user interactions.
